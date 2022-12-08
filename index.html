@@ -13,59 +13,24 @@
     
 </head>
 <body>
-<!-- modal -->
-    <div class="modal" id="output-modal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="output">Each person owes </h5>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn" data-bs-dismiss="modal">Close</button>
-                    <a href="/pay-up.html" class="btn btn-primary">Continue</a>
-                </div>
-            </div>
+    <div class="container text-center">
+        <div class="row">
+        <div class="col-12">
+            <h1 class="text-center">Welcome to Gas Splitter</h1>
         </div>
+        
     </div>
 
-    <form name="gas-values">
-        <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-5 mx-5 mt-4">
-                <label for="drive-distance">Distance (mi)</label>
-            </div>
-
-            <div class="col-sm-10 col-lg-5 mx-5 mt-4">
-                <label for="fuel-economy">Fuel Economy (mpg)</label>
-            </div>
-            
+    <div class="row align-items-center">
+        <!-- <div class="col-5"></div> -->
+        <div class="col-12 justify-content-center">
+            <a href="index.html" class="btn btn-primary w-50">GO</a>
         </div>
-
-        <!-- row 1 -->
-        <div class="row justify-content-center">
-            <div class="col-sm-10 col-lg-5 m-5 mt-2">
-                <input type="number" class="h-100 w-100" id="drive-distance">
-            </div>
-
-            <div class="col-sm-10 col-lg-5 m-5 mt-2">
-                <input type="number" class="h-100 w-100" id="fuel-economy">
-            </div>
-        </div>
-
-        <!-- row 2 -->
-        <div class="row justify-content-center">
-            <div class="col-sm-2 m-5 mt-2 mx-2">
-                <label for="num-people">People</label>
-            </div>
-
-            <div class="col-sm-1 col-lg-1 m-5 mt-2 ">
-                <input type="number" class="h-100 w-100" id="num-people">
-            </div>
+        <!-- <div class="col-5"></div> -->
         
-            <div class="col-sm-4 col-lg-4 m-5 mt-2">
-                <button type="button" class="btn btn-primary w-100" onclick="calcPrice()">GO</button>
-            </div>
-        </div>
-        
-    </form>
+    </div>
+    </div>
+    
+    
 </body>
 </html>
